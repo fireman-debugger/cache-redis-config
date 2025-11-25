@@ -1,0 +1,101 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Form Styles */
+
+.form {
+  margin: 20px 0;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input,.form select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Table Styles */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+/* Error Message Styles */
+
+.error-message {
+  color: #f00;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Success Message Styles */
+
+.success-message {
+  color: #0f0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
